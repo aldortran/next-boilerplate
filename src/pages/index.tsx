@@ -10,7 +10,6 @@ export default function Page (): ReactElement {
       <p className="mt-4">
         <Button
           label="Click Me"
-          isLoading={true}
           onClick={() => {
             alert('You\'ve clicked the button!')
           }}
